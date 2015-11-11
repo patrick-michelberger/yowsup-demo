@@ -1,0 +1,41 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div id="message_form">
+        <form action="">
+            <fieldset>
+                <p>
+                    <label for="phone" id="phone_label">Phone</label>
+                    <br/>
+                    <input type="text" name="phone" id="phone" size="30" value="" class="text-input" />
+                    <br/>
+                    <label class="error" for="phone" id="phone_error">This field is required.</label>
+                </p>
+                <p>
+                    <label for="phone" id="phone_label">Message</label>
+                    <br/>
+                    <textarea id="message" col="25" row="4"></textarea>
+                    <br/>
+                    <label class="error" for="message" id="message_error">This field is required.</label>
+                </p>
+                <input type="submit" name="submit" class="button" id="submit_btn" value="Send" />
+            </fieldset>
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
