@@ -15,7 +15,6 @@
              $("textarea#message").focus();
              return false;
          }
-
          $.ajax({
              type: "POST",
              url: "api/message",
